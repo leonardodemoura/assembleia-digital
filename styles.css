@@ -55,10 +55,12 @@ body {
     bottom: 70px;
     right: 20px;
     width: 250px;
-    padding: 15px;
+    padding: 6px;
     background: white;
+    border: 1px solid #28a745ab;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(0 0 0 / 55%);
+    height: 69%;
   }
 
   #formDuvida {
@@ -70,17 +72,21 @@ body {
   }
   
   form label {
+    font-weight: bold;
+    background-color: #37fb6494;
     display: block;
-    margin-bottom: -22px;
+    margin-bottom: -15px;
     padding: 0px;
-  }
+    color: #c82333;
+}
+  
   
   form input[type="text"],
   form select,
   form textarea {
     width: calc(100% - 10px);
     padding: 5px;
-    margin: 5px 0;
+    margin: 3px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -103,7 +109,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 22px;
+    margin-top: -18px;
   }
   
   form button:hover {
